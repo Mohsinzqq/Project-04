@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Lato', sans-serif;
+
+}
+li{
+	list-style: none;
+}
+.container{
+	width: 95%;
+	margin: auto;
+}
+/* reset */
+
+
+.header:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.header .header-left{
+	float: left;
+	width: 50%;
+}
+.header .header-right{
+	float: left;
+	width: 50%;
+}
+ 
+.header-left ul li{
+	display: inline-block;
+	margin: 30px 15px;
+}
+
+
+.header-left ul li a{
+	color: #6e6d7a;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header-left ul li:hover a{
+	color: black;
+}
+.header-left .logo{
+	color: black;
+	font-family: 'Sacramento', cursive;
+	font-size: 32px;
+}
+
+.header-left .logo:hover{
+	color: #6e6d7a;
+}
+
+
+
+.header-right ul{
+	text-align: right;
+}
+.header-right ul li{
+	display: inline-block;
+	margin: 30px 17px;
+}
+
+.header-right ul li a{
+		color: #6e6d7a;
+		font-size: 16px;
+	    font-weight: normal;
+	    font-family: 'Poppins', sans-serif;
+
+}
+.header-right .btn{
+	border: 1px solid transparent;
+	padding: 10px 12px;
+	background-color: #ea4c89;
+	color: #fff;
+	border-radius: 12px;
+	transition: .5s;
+}
+.header-right .btn:hover{
+	background-color: #F082AC;
+}
+/* header style end */
+
+.body{
+	background-color: #F9F8FD;
+}
+.body:after{
+	content: '';
+	display: block;
+	clear: both;
+
+}
+.body .body-left{
+	width: 60%;
+	float: left;
+}
+.body .body-right{
+	width: 40%;
+	float: left;
+}
+.body-left {
+	margin: 50px 0px;
+}
+.body-left h1{
+	width: 80%;
+	font-size: 45px;
+	font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-weight: bold;
+    margin: 0 12px;
+}
+.body-left p{
+	width: 75%;
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+    margin: 10px 12px;
+    font-weight: bold;
+}
+.body-left button{
+	margin: 10px 12px;
+	padding: 12px 17px;
+	border-radius: 12px;
+	background-color: #ea4c89;
+	color: white;
+	border: 1px solid transparent;
+	transition: .5s;
+}
+.body-left button a{
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+.body-left button:hover{
+	background-color: #F082AC;
+}
+
+
+
+ .body-right img{
+ 	width: 500px;
+    margin: 30px 0;
+    
+ }
+  .body-right h6{
+  	font-size: 14px;
+  	color: #6e6d7a;
+  	margin-left: 65%;
+
+  }
+
+  .body-right a{
+  	color: #6e6d7a;
+  	text-decoration: underline;
+
+  }
+.link ul {
+	margin: 25px auto;
+}
+
+.link ul li{
+	display: inline-block;
+	margin: 20px 20px; 
+}
+.link ul li a{
+	color: #6e6d7a;
+}
+.link ul li:hover a{
+	color: black;
+	font-weight: bolder;
+}
+
+.link .first{
+	border: 1px solid transparent;
+	padding: 10px 20px;
+	box-shadow: 0px 0px 0px 1px #e7e7e9 inset;
+	background-color: #f3f3f4;
+	border-radius: 10px;
+	font-weight: bolder;
+}
+.link .first:hover{
+	box-shadow: 1px 1px 2px lightpink;
+	border: 2px solid lightpink;
+	
+}
+.link .last{
+	border: 1px solid transparent;
+	padding: 10px 25px;
+	box-shadow: 0px 0px 0px 1px #e7e7e9 inset;
+	background-color: #f3f3f4;
+	border-radius: 10px;
+	color: black;
+	font-weight: bolder;
+	
+}
+/* link menu style end */
+.images{
+	width: 25%;
+	float: left;
+
+}
+
+.all-images:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.all-images .images img{
+	width: 250px;
+	height: 150px;
+	margin: 20px 25px;
+	border-radius: 5px;
+	
+}
+.all-images .images p{
+	margin: 0px 25px;
+	font-family: 'Lato', sans-serif;
+	float: left;
+	
+
+}
+.all-images .images h6{
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 55px;
+	color: #6e6d7a;
+	float: left;
+
+
+}
+.all-images .images #a:hover{
+	color: #EA4C89;
+
+}
+/* team member end */
+.login-area{
+	margin: 5% 30%;
+}
+.login-area .btn2{
+	margin: 0 10%;
+	padding: 10px 50px;
+	background-color: #ea4c89;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	color: #ffffff;
+	font-size: 16px;
+	transition: .5s;
+	outline: none;
+
+}
+.login-area .btn2 :hover{
+	 background-color: #F082AC;
+
+}
+.login-area button{
+	border: 1px solid transparent;
+	background-color: #fff;
+	outline: none;
+	color: #ea4c89;
+	font-size: 14px;
+}
+.login-area button:hover{
+	color: #F082AC;
+
+}
+/* images style end */
+
+.fotter{
+	background-color: #FAFAFB;
+}
+
+.fotter{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.text{
+	width: 16.66%;
+	float: left;
+}
+.text h4{
+	font-size: 40px;
+	color: #ea4c89;
+	font-family: 'Sacramento', cursive;
+	transition: .3s;
+	margin-left: 20px;
+}
+.text h4:hover{
+	color: #CA6B90;
+
+}
+.text p{
+	width: 80%;
+	margin-top: 1%;
+	margin-left: 20px;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+
+}
+.text i{
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+.second{
+	width: 16.66%;
+	float: left;
+}
+.second p{
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	color: #000;
+	margin-top: 15px;
+}
+.second ul li{
+	margin-top: 10px;
+}
+.second ul li a{
+	color: #333;
+	font-weight: normal;
+}
+.second ul li:hover a{
+	color: red;
+}
+
+.third{
+	width: 16.66%;
+	float: left;
+}
+.third p{
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	color: #000;
+	margin-top: 15px;
+}
+.third ul li{
+	margin-top: 10px;
+}
+.third ul li a{
+	color: #333;
+	font-weight: normal;
+}
+.third ul li:hover a{
+	color: red;
+}
+.third .active{
+	color: black;
+	font-weight: bolder;
+}
+
+.fourth{
+	width: 16.66%;
+	float: left;
+}
+.fourth p{
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	color: #000;
+	margin-top: 15px;
+}
+.fourth ul li{
+	margin-top: 10px;
+}
+.fourth ul li a{
+	color: #333;
+	font-weight: normal;
+}
+.fourth ul li:hover a{
+	color: red;
+}
+
+.fifth{
+	width: 16.66%;
+	float: left;
+}
+.fifth p{
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	color: #000;
+	margin-top: 15px;
+}
+.fifth ul li{
+	margin-top: 10px;
+}
+.fifth ul li a{
+	color: #333;
+	font-weight: normal;
+}
+.fifth ul li:hover a{
+	color: red;
+}
+.fifth .active2{
+	color: black;
+	font-weight: bolder;
+}
+
+.sixth{
+	width: 16.66%;
+	float: left;
+
+}
+.sixth img{
+	width: 150px;
+	background-color: #fff;
+
+}
+.sixth p{
+	font-family: 'Lato', sans-serif;
+	color: #333;
+	font-size: 15px;
+
+}
+.sixth:hover p{
+	color: black;
+	cursor: pointer;
+}
+
+.sixth .finish{
+	color: #333;
+}
+
+/* footer style end */

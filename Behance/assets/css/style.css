@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.container{
+	width: 99%;
+	margin: auto;    
+}
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Anton', sans-serif;
+/* ressrt */
+
+
+
+
+.main-section:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.hearder-left img{
+	width: 90px;
+	float: left;
+	margin-top: 2.2%;
+	margin-left: 1.5%;
+	cursor: pointer;
+
+
+}
+
+.hearder-left ul li{
+	display: inline-block;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2%;
+
+}
+.hearder-left ul li a{
+	color: #333;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+
+}
+.hearder-middle {
+	text-align: center;
+	margin-right: 30%;
+
+	float: left;
+}
+.hearder-middle input{
+	margin-top: 7%;
+	width: 300px;
+	padding: 10px 20px;	
+	border-radius: 100px;
+	margin-left: 45%;
+	outline: none;
+}
+
+.hearder-right{
+	text-align: right;
+	display: inline-block;
+	float: left;
+}
+.hearder-right button{
+	float: left;
+	margin-top: 12%;
+	margin-right: 15px;
+	padding: 10px 18px;
+	border-radius: 100px;
+	outline: none;
+	border: 1px solid darkgrey;
+	background: transparent;
+	font-weight: bold;
+	transition: .5s;
+}
+
+.hearder-right button:hover{
+	background-color: #10101010;
+}
+
+.hearder-right .first{
+	background-color: #0057ff;
+	color: #fff;
+}
+
+.hearder-right .first:hover{
+	background-color: #003ECB;
+}
+
+.hearder-right h6{
+	float: left;
+	margin-top: 16%;
+	font-size: 16px;
+	transition: .5s;
+}
+.hearder-right h6:hover{
+	color: #999;
+}
+
+/* main ssection end */
+
+.team-member .team1 img{
+	width: 170px;
+	height: 70px;
+	float: left;
+	margin-left: 1.5%;
+	margin-top: 2%;
+	border-radius: 2px;
+
+
+}
+
+.team-member .team1 h2{
+	font-size: 12px;
+	margin-bottom: -10%;
+}
+.text{
+	text-align: center;	
+}
+.text h1{
+	margin-top: 3%;
+	font-size: 90px;
+	font-weight: bold;
+	font-family: 'Anton', sans-serif;
+}
+
+.text p{
+	margin-top: 1%;
+	font-size: 28px;
+
+}
+/* text end */
+.image-section{
+	width: 100%;	
+}
+.img1{
+	width: 25%;
+	float: left;
+	margin-top: 8%;
+}
+.img1 img{
+	width: 300px;
+	height: 250px;
+	margin-left: 4%;
+}
+.img1 h5{
+	margin-left: 10%;
+}
+.img1 p{
+	margin-left: 35%;
+	margin-top: -4.5%;
+}
+
+.sign-area p{
+	margin-left: 30%;
+	font-size: 15px;
+	font-weight: bold;
+	word-spacing: 2px;
+	font-family: 'Noto Sans', sans-serif;
+	cursor: default;
+}
+.sign-area a{
+	color: #000;
+	text-decoration: underline;
+}
+
+.bottom .sign-area button{
+	margin-top: 3%;
+	margin-left: 38%;
+	padding: 10px 20px;
+	border-radius: 100px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #0057ff;
+	border: transparent;
+	outline: none;
+	transition: .5s;
+
+}
+
+.bottom .sign-area button:hover{
+		background-color: #003ECB;
+}
+
+.bottom .sign-area h6{
+	
+	margin-left: 51%;
+	margin-top: -2%;
+}
+
+.sign-area p{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+
+
+
